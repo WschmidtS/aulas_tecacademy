@@ -1,0 +1,1 @@
+web: gunicorn aulastec.wsgi --log-file -
