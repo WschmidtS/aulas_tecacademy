@@ -1,2 +1,2 @@
 # aulas_tecacademy
-Plataforma com aulas sobre Currículo Adaptado
+Desenvolvimento de plataforma para aulas sobre Currículo Adaptado.
