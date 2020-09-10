@@ -12,7 +12,7 @@ install:
   - pipenv sync --dev
 script:
   - pipenv run flake8
-  - pipenv run pytest --cov=aulas_tecacademy
+  - pipenv run pytest --cov=aulastec
 
 after_success:
   - codecov
