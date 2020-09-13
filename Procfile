@@ -1,2 +1,2 @@
-release: python mangage.py migrate --noinput
+release: python managage.py migrate --noinput
 web: gunicorn aulastec.wsgi --log-file -
