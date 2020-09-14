@@ -7,6 +7,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    raise ValueError()
     return HttpResponse('<html><body>Plataforma de Aulas TecAcademy, em desenvolvimento!!!!</body></html>',
                         content_type='text/html')
