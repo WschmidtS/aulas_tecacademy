@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Aulas TecAcademy</title>
+    <title>Treinamentos TecAcademy</title>
 
-    <meta name="description" content="Página sobre as Aulas oferecidas pela TecAcademy">
+    <meta name="description" content="Página de Acesso aos Treinamentos do uso da Plataforma">
     <meta name="author" content="Walter Schmidt Silva">
 
     <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
@@ -23,7 +23,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="{% url 'base:home' %}">Aulas TecAcademy</a>
+    <a class="navbar-brand" href="{% url 'base:home' %}">Página de Acesso aos Treinamentos do uso da Plataforma</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,19 +41,22 @@
         <div class="col-md-12">
 
             <div class="jumbotron">
+                <!--
                 <h1>
                     TecAcademy Digital Consulting
                 </h1>
+                -->
                 <h2>
-                    Curso sobre curriculos adaptados
+                    Plataforma de Acompanhamento e Avaliação Qualitativa
                 </h2>
                 <p>
-                    Confira em breve mais informações sobre o curso de Currículos Adaptados ministrado pela equipe
-                    pedagógica da TecAcademy.
+                    Aqui você encontra todos os vídeos explicativos sobre o uso da plataforam de acompanhamento e
+                    avaliação qualitativa da TecAcademy.
                 </p>
 
-                <h5 class="mt-4">Preencha o formulário abaixo com o seu nome, Endereço de E-mail e Celular e nós
-                    entraremos em contato avisando sobre a data de lançamento do curso.</h5>
+                <h6 class="mt-4">Já é usuário da plataforma da TecAcademy e ainda não tem o seu login de acesso?
+                    <br>Então preencha o formulário abaixo com o seu nome, Endereço de E-mail e Celular para receber
+                    o seu Usuário e Senha de acesso aos treinamentos.</h6>
 
                 <form action="https://tecacademy.us2.list-manage.com/subscribe/post?u=e95c8072d62d467bbb725dd46&amp;id=f4464d90e7"
                       method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
@@ -90,6 +93,12 @@
                 </form>
 
             </div>
+            <br>
+            <h1>
+                Conheça a Equipe da TecAcademy
+            </h1>
+            <br>
+
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
@@ -98,17 +107,29 @@
                         </h5>
                         <div class="card-body">
                             <p class="card-text">
-                                <img src="{% static 'img/Paula.png' %}" alt="Foto de Paula Lameu"
+                                <img src="{% static 'img/PaulaNew.png' %}" alt="Foto de Paula Lameu"
                                      class="img-thumbnail float-left mr-3"/>
-                                PhD by the School of Education/College of Social Sciences in the University of
-                                Birmingham, UK. Master Degree by the Program of Linguistics and Literary Studies in
-                                English , of the Modern Language Department at College of Philosophy, Languages and
-                                Human Sciences in the Universidade de São Paulo. Graduated in Digital Media/Journalism
-                                by Pontifícia Universidade Católica de São Paulo. As a lecturer, taught Linguistics and
-                                Sociolinguistics at Faculdades Guaianás, North-american Literature and Linguistics at
-                                Universidade Braz Cubas.
-                                As an English teacher, taught English for Elementary School and High School at Pueri
-                                Domus and CCAA in Mogi das Cruzes.
+                            <div align="justify">
+                                Doutora pelo PhD Research Program da School of Education da University of Birmingham,
+                                UK, é Mestre pelo Programa de Estudos Linguísticos e Literários em Inglês, do
+                                Departamento de Letras Modernas da Faculdade de Filosofia, Letras e Ciências Humanas da
+                                Universidade de São Paulo (FFLCH/USP). Especialista em Comunicação Jornalística em
+                                Mídias Digitais pela Pontifícia Universidade Católica de São Paulo (PUC/SP), foi
+                                professora de Linguística e Sociolinguística na Faculdade Guaianás, Linguística e
+                                Literatura Norte-Americana na Universidade Braz Cubas, Língua Inglesa para o Ensino
+                                Fundamental II e Médio da Escola Pueri Domus e professora de Língua Inglesa no CCAA de
+                                Mogi das Cruzes. Também atuou como professora de Língua Inglesa para todos os segmentos
+                                no Colégio Integração e como Coordenadora Pedagógica de Ensino Fundamental I e II. Hoje
+                                atua em duas frentes de pesquisa: a primeira aborda o uso das Novas Tecnologias em sala
+                                de aula sob a perspectiva da Assemblage Theory, envolvendo processos discursivos, de
+                                ensino, de aprendizagem, políticos, sociais, culturais e históricos, além da construção
+                                do sujeito; a segunda compreende o desenvolvimento de currículo personalizado para
+                                crianças de Educação Infantil e Ensino Fundamental, que demandam um percurso
+                                diferenciado de aprendizagem, sejam eles portadores de necessidades educativas especiais
+                                ou não. Possui graduação em Comunicação com habilitação: Jornalismo pela Universidade de
+                                Mogi das Cruzes (2000), em Letras (LP/LI), pela Universidade Braz Cubas (2007) e
+                                Pedagogia pelas Faculdades Claretianas de Batatais (2009)
+                            </div>
                             </p>
                         </div>
                     </div>
@@ -122,16 +143,20 @@
                             <p class="card-text">
                                 <img src="{% static 'img/Amanda.png' %}" alt="Foto de Amanda Longo"
                                      class="img-thumbnail float-left mr-3"/>
+                            <div align="justify">
                                 Sou Amanda Longo graduada em Pedagogia, pós graduada em Psicopedagogia.
                                 Já atuei na área da Educação, como professora polivalente por 9 anos, com vendas
                                 informal, como representante comercial em uma empresa ligada à Educação , mapeando e
                                 prospectando mercado em busca de novos negócios. Hoje, faço atendimentos
                                 psicopedagógicos, com a função de assessorar e esclarecer a escola sobre os diversos
-                                aspectos do ensino aprendizagem da criança, atuando de forma preventiva em cada caso,
-                                para analisar e assinalar fatores que favorecem, interferem e prejudicam a aprendizagem
+                                aspectos do ensino aprendizagem da criança, atuando de forma preventiva em cada
+                                caso,
+                                para analisar e assinalar fatores que favorecem, interferem e prejudicam a
+                                aprendizagem
                                 de uma criança. Elaboro materiais adaptados para as escolas e pais que desejam
                                 intensificar a aprendizagem do seu filho em casa e criação de jogos educativos e
                                 pedagógicos.
+                            </div>
                             </p>
                         </div>
                     </div>
@@ -145,8 +170,11 @@
                             <p class="card-text">
                                 <img src="{% static 'img/Georgia.png' %}" alt="Foto de Georgia Seara"
                                      class="img-thumbnail float-left mr-3"/>
-                                Tenho como objetivo profissional trabalhar como Auxiliar de Desenvolvimento Infantil,
+                            <div align="justify">
+                                Tenho como objetivo profissional trabalhar como Auxiliar de Desenvolvimento
+                                Infantil,
                                 Professora ou Acompanhante Terapêutica
+                            </div>
                             </p>
                         </div>
                     </div>
@@ -164,11 +192,15 @@
                 <address>
                     WhatsApp: +55 11 98829-3184
                     <br/>
-                    <a href="mailto:contato@tecacademy.com.br" class="text-light">Dúvidas? Entre em contato com a
+                    <a href="mailto:contato@tecacademy.com.br" class="text-light">Dúvidas? Envie um e-mail para nós
                         gente clicando aqui!</a>
                     <p>
                         <a class="btn btn-primary btn-large" href="https://www.tecacademy.com.br" target="_blank">Site
                             TecAcademy</a>
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-large" href="https://plataforma.tecacademy.com.br"
+                           target="_blank">Plataforma de Acompanhamento e Avaliação Qualitativa</a>
                     </p>
                 </address>
 
