@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 # Static Files
-#/staticfiles/
-#/aulastec/base/static/
+/staticfiles/
+/aulastec/base/static/
 
-#postgres files for local development
+# postgres files for local development
 .pgdata
